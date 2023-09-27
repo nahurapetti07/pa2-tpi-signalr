@@ -1,2 +1,2 @@
-# pa2-tpi-signalr
+# Programación Avanzada II
 Trabajo práctico integrador - SignalR
