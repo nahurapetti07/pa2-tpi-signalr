@@ -1,4 +1,20 @@
 ﻿<Properties StartupConfiguration="{A0A29DCC-F6DE-464D-8565-6F6FADE31848}|Default">
-  <MonoDevelop.Ide.ItemProperties.TicTacToeSignalR.Web FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TicTacToeSignalR.Web FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TicTacToeSignalR" selected="True">
+            <Node name="TicTacToeSignalR.Web" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
