@@ -1,20 +1,6 @@
-﻿<Properties StartupConfiguration="{A0A29DCC-F6DE-464D-8565-6F6FADE31848}|Default">
-  <MonoDevelop.Ide.ItemProperties.TicTacToeSignalR.Web FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TicTacToeSignalR" selected="True">
-            <Node name="TicTacToeSignalR.Web" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties StartupConfiguration="{E4C0B53D-9CB6-498D-B259-2DF6C795ED9B}|Default">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TicTacToe.Blazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.TicTacToe.Services FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TicTacToe.Data FirstBuild="True" />
 </Properties>

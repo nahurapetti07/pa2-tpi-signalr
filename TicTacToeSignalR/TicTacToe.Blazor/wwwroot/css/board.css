@@ -1,0 +1,51 @@
+﻿.main-title {
+    text-align: center;
+    padding: 24px;
+}
+
+.board .row div {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.chat {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 24px;
+}
+
+.action-container .main-action {
+
+}
+
+    .action-container .main-action a {
+        text-decoration: none;
+        color: #390848;
+        font-size: 24px;
+        font-weight: 500;
+        border-radius: 24px;
+        padding: 50px;
+        border: 6px solid #390848;
+    }
+        .action-container .main-action a:hover {
+            color: white;
+            background-color: #390848;
+        }

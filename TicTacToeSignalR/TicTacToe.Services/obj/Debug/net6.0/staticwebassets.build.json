@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "/x6yox/03OFBfVfHX2CBbhFhYNlgkZrjatbEcNpCCg8=",
+  "Source": "TicTacToe.Services",
+  "BasePath": "_content/TicTacToe.Services",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Data/TicTacToe.Data.csproj",
+      "Version": 2,
+      "Source": "TicTacToe.Data",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,231 @@
+﻿@page "/AddToGame"
+@using Microsoft.AspNetCore.SignalR.Client
+@using Entities = TicTacToe.Data.Entities;
+@inject NavigationManager Navigation
+@implements IAsyncDisposable
+
+<PageTitle>Buscar Partida</PageTitle>
+
+@if (@currentGame == null)
+{
+    <div class="main-title">
+        <h3>Buscar Partida</h3>
+    </div>
+    <div class="action-container">
+        <div class="form-group">
+            <label>
+                Nombre de usuario:
+                <input @bind="userName" required />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Código de partida:
+                <input @bind="gameName" required />
+            </label>
+        </div>
+        <button class="playAction" @onclick="FindGame" disabled="@(!IsConnected)">Buscar</button>
+    </div>
+    <h4>@errorMessage</h4>
+}
+else if (@playerWon != null)
+{
+    <div class="container h-100" style="width:500px;background:#ff6a00;padding:40px">
+         <h3>Partida: <span>@gameName</span></h3>
+        <div class="row h-50 justify-content-center align-items-center">
+            <span style="font-size:large">@playerWon ganó !</span>
+        </div>
+    </div>
+    <div class="text-center my-3">
+        <button class="btn btn-dark" @onclick="PlayNewGame">Ingresar a otra partida</button>
+    </div>
+}
+else if (@isDraw)
+{
+    <div class="container h-100" style="width:600px;background:#ff6a00;padding:40px">
+        <div class="row h-50 justify-content-center align-items-center">
+            <span style="font-size:large">Es un empate!</span>
+        </div>
+    </div>
+}
+else if (@playerWon == null)
+{
+    <div class="main-title">
+        <h3>Partida: <span>@gameName</span></h3>
+        <p>Turno de: <span>@turnName</span></p>
+    </div>
+
+    <div class="board-container">
+        <div class="container-fluid board" style="width:500px;">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(0))">
+                    <span style="font-size:xx-large">@ShowBoard(0)</span>
+                </div>
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(1))">
+                    <span style="font-size:xx-large">@ShowBoard(1)</span>
+                </div>
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(2))">
+                    <span style="font-size:xx-large">@ShowBoard(2)</span>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(3))">
+                    <span style="font-size:xx-large">@ShowBoard(3)</span>
+                </div>
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(4))">
+                    <span style="font-size:xx-large">@ShowBoard(4)</span>
+                </div>
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(5))">
+                    <span style="font-size:xx-large">@ShowBoard(5)</span>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(6))">
+                    <span style="font-size:xx-large">@ShowBoard(6)</span>
+                </div>
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(7))">
+                    <span style="font-size:xx-large">@ShowBoard(7)</span>
+                </div>
+                <div class="col-3 col-class text-center" @onclick="@(() => OnSelect(8))">
+                    <span style="font-size:xx-large">@ShowBoard(8)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat">
+            <div class="form-group">
+                <label>
+                    Mensaje:
+                    <input @bind="messageInput" size="50" />
+                </label>
+            </div>
+            <button @onclick="Send" disabled="@(!IsConnected)">Enviar</button>
+            <ul id="messagesList">
+                @foreach (var message in messages)
+                {
+                    <li><span>@message.User :</span> @message.Text</li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+
+@code {
+    private HubConnection? hubConnection;
+    private string? userName;
+    private Entities.Player currentPlayer = null;
+    private string? gameName;
+    private string? errorMessage;
+    private string? messageInput;
+    private string? turnName;
+    private List<Entities.Message>? messages = new List<Entities.Message>();
+
+    private Entities.Game? currentGame = null;
+    string playerWon = null;
+    bool isDraw = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("/tictactoeHub"))
+            .Build();
+
+        hubConnection.On<Entities.Game>("GameUpdated", (game) =>
+        {
+            currentGame = game;
+            currentPlayer = game.Oponent;
+            messages = game.Messages;
+
+            turnName = currentPlayer.WaitingForMove ? game.Owner.Name : userName;
+
+            if (game.Winner != null)
+            {
+                playerWon = game.Winner.Name;
+            }
+
+            InvokeAsync(StateHasChanged);
+        });
+
+        hubConnection.On<bool>("GameExists", async (gameExists) =>
+        {
+            if (gameExists)
+            {
+                turnName = userName;
+                await hubConnection.SendAsync("AddToGame", gameName, userName);
+            }
+            else
+            {
+                errorMessage = $"La partida {gameName} no existe";
+            }
+
+            InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task FindGame()
+    {
+        if (userName != null && userName != "")
+        {
+            if (hubConnection is not null)
+            {
+                await hubConnection.SendAsync("FindGame", gameName);
+            }
+        }
+        else
+        {
+            errorMessage = "El nombre de usuario es obligatorio";
+        }
+    }
+
+    private async Task OnSelect(int index)
+    {
+        if (hubConnection is not null && currentPlayer != null)
+        {
+            if ((!currentGame.IsPlayed(currentGame.Board[index])) && !currentPlayer.WaitingForMove)
+            {
+                currentGame.Board[index] = currentPlayer.Symbol;
+
+                if (currentGame.IsWinner())
+                {
+                    await hubConnection.SendAsync("SetWinner", gameName, currentPlayer);
+                }
+                isDraw = currentGame.IsDraw();
+                await hubConnection.SendAsync("OnMakeMoveAsync", gameName, currentGame.Board, false);
+
+                InvokeAsync(StateHasChanged);
+            }
+        }
+    }
+
+    private string ShowBoard(int index)
+    {
+        return currentGame.Board[index];
+    }
+
+    public bool IsConnected =>
+        hubConnection?.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+
+    public async Task Send()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("SendMessage", gameName, currentPlayer.Name, messageInput);
+            messageInput = "";
+        }
+    }
+
+    private void PlayNewGame()
+    {
+        Navigation.NavigateTo("AddToGame", true);
+    }
+}

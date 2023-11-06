@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/TicTacToe.Data.props" />
+</Project>
