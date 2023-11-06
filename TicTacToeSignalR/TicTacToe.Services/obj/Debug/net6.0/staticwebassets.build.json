@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "/x6yox/03OFBfVfHX2CBbhFhYNlgkZrjatbEcNpCCg8=",
+  "Hash": "rAKuT7c6Wzntz/YEz22iQ+1lOt5E17nprZFSxA98I7Y=",
   "Source": "TicTacToe.Services",
   "BasePath": "_content/TicTacToe.Services",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Data/TicTacToe.Data.csproj",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/TicTacToe.Data.csproj",
       "Version": 2,
       "Source": "TicTacToe.Data",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

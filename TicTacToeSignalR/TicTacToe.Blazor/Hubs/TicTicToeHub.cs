@@ -25,10 +25,10 @@ namespace TicTacToe.Blazor.Hubs
         {
             Player opponent = _gameService.CreatePlayer(username, Context.ConnectionId);
             opponent.Symbol = "O";
-            opponent.WaitingForMove = true;
             Game game = _gameService.FindGame(gameName);
             game.State = GameStatus.Playing;
             game.Oponent = opponent;
+            game.Oponent.WaitingForMove = !game.Owner.WaitingForMove;
             await Groups.AddToGroupAsync(Context.ConnectionId, gameName);
             await Clients.Group(gameName).SendAsync("GameUpdated", game);
         }

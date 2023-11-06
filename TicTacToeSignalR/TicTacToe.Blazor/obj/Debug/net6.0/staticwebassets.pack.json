@@ -1,63 +1,63 @@
 {
   "Files": [
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/TicTacToe.Blazor.bundle.scp.css",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/TicTacToe.Blazor.bundle.scp.css",
       "PackagePath": "staticwebassets/TicTacToe.Blazor.bundle.scp.css"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/board.css",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/board.css",
       "PackagePath": "staticwebassets/css/board.css"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/ICON-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/README.md",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/README.md",
       "PackagePath": "staticwebassets/css/open-iconic/README.md"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/site.css",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/favicon.ico",
+      "Id": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {

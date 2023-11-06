@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "bKtUq2KW6h+pak6shYvh1a/pGmpvzacIxlvoKhHldZE=",
+  "Hash": "cVp38w7IAosnqCidUMdf/SVjrUz/cgk1868WDdFLue0=",
   "Source": "TicTacToe.Blazor",
   "BasePath": "_content/TicTacToe.Blazor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Data/TicTacToe.Data.csproj",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/TicTacToe.Data.csproj",
       "Version": 2,
       "Source": "TicTacToe.Data",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Services/TicTacToe.Services.csproj",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Services/TicTacToe.Services.csproj",
       "Version": 2,
       "Source": "TicTacToe.Services",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,17 +33,17 @@
     {
       "Name": "TicTacToe.Blazor/wwwroot",
       "Source": "TicTacToe.Blazor",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/bundle/TicTacToe.Blazor.styles.css",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/bundle/TicTacToe.Blazor.styles.css",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "TicTacToe.Blazor.styles.css",
       "AssetKind": "All",
@@ -54,13 +54,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/bundle/TicTacToe.Blazor.styles.css"
+      "OriginalItemSpec": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/bundle/TicTacToe.Blazor.styles.css"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/TicTacToe.Blazor.bundle.scp.css",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/TicTacToe.Blazor.bundle.scp.css",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "TicTacToe.Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/TicTacToe.Blazor.bundle.scp.css"
+      "OriginalItemSpec": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/obj/Debug/net6.0/scopedcss/projectbundle/TicTacToe.Blazor.bundle.scp.css"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/board.css",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/board.css",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/board.css",
       "AssetKind": "All",
@@ -91,10 +91,10 @@
       "OriginalItemSpec": "wwwroot/css/board.css"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -108,10 +108,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -125,10 +125,10 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -142,10 +142,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -159,10 +159,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -176,10 +176,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -193,10 +193,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -210,10 +210,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -244,10 +244,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -261,10 +261,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/README.md",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/open-iconic/README.md",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -278,10 +278,10 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/site.css",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/css/site.css",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -295,10 +295,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/favicon.ico",
+      "Identity": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/favicon.ico",
       "SourceId": "TicTacToe.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
+      "ContentRoot": "/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Blazor/wwwroot/",
       "BasePath": "_content/TicTacToe.Blazor",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

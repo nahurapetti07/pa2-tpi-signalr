@@ -23,3 +23,28 @@
 /Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.pdb
 /Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.genruntimeconfig.cache
 /Users/nrapetti/Desktop/BlazorServer/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/ref/TicTacToe.Data.dll
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/appsettings.Development.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/appsettings.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/TicTacToe.Data
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/TicTacToe.Data.deps.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/TicTacToe.Data.runtimeconfig.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/TicTacToe.Data.dll
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/bin/Debug/net6.0/TicTacToe.Data.pdb
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.AssemblyInfoInputs.cache
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.AssemblyInfo.cs
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.csproj.CoreCompileInputs.cache
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.MvcApplicationPartsAssemblyInfo.cache
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets/msbuild.TicTacToe.Data.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets/msbuild.build.TicTacToe.Data.props
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.TicTacToe.Data.props
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.TicTacToe.Data.props
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets.build.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/staticwebassets.development.json
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/scopedcss/bundle/TicTacToe.Data.styles.css
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.dll
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/refint/TicTacToe.Data.dll
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.pdb
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/TicTacToe.Data.genruntimeconfig.cache
+/Users/nrapetti/Documents/Licenciatura/4Q - Prog Avanzada II/pa2-tpi-signalr/TicTacToeSignalR/TicTacToe.Data/obj/Debug/net6.0/ref/TicTacToe.Data.dll
