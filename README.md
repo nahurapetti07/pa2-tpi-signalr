@@ -1,5 +1,5 @@
 # Programación Avanzada II
-## Trabajo práctico integrador - SignalR
+## Trabajo práctico de investigación - SignalR
 
 ## Integrantes
 - Alegre, Silvio Javier
